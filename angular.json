@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "PortFolio_IvanJSantoMuze": {
+    "FrontEndAngular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/port-folio-ivan-jsanto-muze",
+            "outputPath": "dist/front-end-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -25,12 +25,9 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -63,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "PortFolio_IvanJSantoMuze:build:production"
+              "browserTarget": "FrontEndAngular:build:production"
             },
             "development": {
-              "browserTarget": "PortFolio_IvanJSantoMuze:build:development"
+              "browserTarget": "FrontEndAngular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PortFolio_IvanJSantoMuze:build"
+            "browserTarget": "FrontEndAngular:build"
           }
         },
         "test": {
@@ -99,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "c02b6c2e-f3e5-40c7-8d9f-09670337e6bc"
+    "analytics": "3b3347ed-05ee-4caf-bf3d-465b1a82369a"
   }
 }

@@ -1,0 +1,143 @@
+
+{
+  "user": {
+    "userName": "ism",
+    "email": "ivansantomuze@gmail.com",
+    "password": "95724973"
+  },
+  "hero": {
+    "imagenPerfil": "./assets/images/FotoDePerfiljpg",
+    "saludoPrincipal": "Hola! soy Ivan J Santo Muze!",
+    "descripcion": "Estudiante de Desarrollo Web e Ingenieria Electrica, te invito a conocerme!"
+  },
+  "sobreMi": {
+    "imagenSecundaria": "./assets/images/FotoDePerfil.jpg",
+    "descripcion": "Soy Ivan, estudiante de desarrollo web full stack! Comence a estudiar en Junio 2022, y aún sigo aprendiendo. Creo que todos los días se aprende algo nuevo!. Tengo un gran interes por la programación, el desarrollo web, motorsport, y la ingenieria. También me gusta la música, la naturaleza, y el gimnasio. Considero que soy una persona resolutiva, responsable, perseverante, y proactiva, aunque también ambicioso, sociable, y detallista."
+  },
+  "experiencia": [
+    {
+      "id": 0,
+      "logo": "./assets/images/transparent-png-online-white.png",
+      "posicionYtiempo": "Vendedor e-commerce (2020 - 2021)",
+      "descripcion": "Emprendimiento propio de venta al público de diversos artículos, a traves de internet."
+    }
+  ],
+  "educacion": {
+    "descripcion": "Estudiante autodidacta. Comence a estudiar desarrollo web en Junio 2022, a día de hoy, sigo estudiando.",
+    "certificado": [
+      {
+        "institucion": "Facultad de Ciencias Exactas y Tecnologias-UNT",
+        "tituloYtiempo": "Ingenieria Electrica - Presente",
+        "descripcion": "Estudio la carrera de ingenieria electrica, donde tambien desempeñamos la programacion",
+        "imagen": "./assets/images/certificates/facet.png"
+      },
+      {
+        "institucion": "Argentina programa",
+        "tituloYtiempo": "#Seprogramar - Junio 2022",
+        "descripcion": "Primera etapa de 'Argentina programa'. Contenidos: introducción a la lógica de programación con Gobestones, introducción a las funciones con JavaScript, e introducción a POO con Ruby.",
+        "imagen": "./assets/images/certificates/SeProgramar.png"
+      },
+      {
+        "institucion": "Google Activate",
+        "tituloYtiempo": "Introduccion al Desarrollo Web I - Agosto 2022",
+        "descripcion": "La Web, las funciones de las mismas, como se publican, HTML y CSS",
+        "imagen": "./assets/images/certificates/DesarrolloWebI.png"
+      },
+      {
+        "institucion": "Google Activate",
+        "tituloYtiempo": "Introduccion al Desarrollo Web II - Noviembre 2022",
+        "descripcion": "Presentacion de una pagina web, los elementos de la pagina web, maqueta de una pagina web, exito de una pagina web, HTML y CSS",
+        "imagen": "./assets/images/certificates/DesarrolloWebII.png"
+      },
+      {
+        "institucion": "Google Activate",
+        "tituloYtiempo": "Digitaliza paso a paso tu negocio con herramientas de Google - Agosto 2022",
+        "descripcion": "Digitalizar el negocio con el perfil Empresa, Comunicarse con los clientes a traves de youtube y Google Forms",
+        "imagen": "./assets/images/certificates/DigitalizaPasoAPasoTuNegocio.png"
+      },
+      {
+        "institucion": "Google Activate",
+        "tituloYtiempo": "Desarrollo de Apps Moviles - Agosto 2022",
+        "descripcion": "Nacimiento de los moviles, diseño y creacion de apps, plataformas de desarrollo(Android,iOS), desarrollo multiplataforma, realidad aumentada, stores, comercializacion, analisis de usuarios, industria de las apps",
+        "imagen": "./assets/images/certificates/DesarrolloDeAppsMoviles.png"
+      },
+      {
+        "institucion": "Google Activate",
+        "tituloYtiempo": "Proteje tu Negocio: Ciberseguridad en el Teletrabajo - Noviembre 2022",
+        "descripcion": "Introduccion al teletrabajo, teletrabajo seguro para el empleador, teletrabajo seguro para el empleado, fraudes y otros incidentes",
+        "imagen": "./assets/images/certificates/Ciberseguridad.png"
+      }
+      
+    ]
+  },
+  "habilidadesTecnicas": {
+    "nivelAlto": [{
+        "logoURL": "https://www.ujudebug.com/wp-content/uploads/2022/07/html-logo-transparent.png",
+        "nombre": "HTML 5"
+      },
+      {
+        "logoURL": "https://www.ujudebug.com/wp-content/uploads/2022/07/css-logo-transparent.png",
+        "nombre": "CSS 3"
+      }
+    ],
+    "nivelMedio": [{
+        "logoURL": "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-1.png",
+        "nombre": "JavaScript"
+      },
+    
+      {
+        "logoURL": "https://img.icons8.com/fluency/240/paint-3d.png",
+        "nombre": "Paint 3D"
+      }
+    ],
+    "nivelBasic": [{
+        "logoURL": "https://logospng.org/download/bootstrap/bootstrap-256.png",
+        "nombre": "Bootstrap 5"
+      },
+      {
+        "logoURL": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+        "nombre": "Git"
+      },
+      {
+        "logoURL": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+        "nombre": "Github"
+      },
+      {
+        "logoURL": "https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg",
+        "nombre": "Angular"
+      },
+      {
+        "logoURL": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+        "nombre": "TypeScript"
+      }
+    ],
+    "idiomas": [{
+        "logoURL": "https://icons.iconarchive.com/icons/wikipedia/flags/256/ES-Spain-Flag-icon.png",
+        "nombre": "Español"
+      },
+      {
+        "logoURL": "https://icons.iconarchive.com/icons/wikipedia/flags/256/GB-United-Kingdom-Flag-icon.png",
+        "nombre": "Ingles"
+      }
+    ]
+  },
+  "proyectos": {
+    "proyecto": [
+      {
+        "nombre": "Portfolio Web AR Programa de ISM",
+        "descripcion": "Aplicación Web que incluye Portfolio Web propio. Proyecto realizado integramente por mi (Ivan Santo Muze) durante la 2da etapa de Argentina Programa denominada #YoProgramo.",
+        "imagen": "./assets/images/proyectos/ARprograma-portfolio-app-web.png",
+        "paginaURL": "index.html",
+        "githubURL": "https://github.com/donsonic9/donsonic9.github.io"
+      }
+    ]
+  },
+  "footer": {
+    "fraseDescriptiva": "Todos los días se aprende algo nuevo!",
+    "fraseDeContacto": "¿Qué estas esperando? Contactame! y hagamos realidad ese proyecto que tanto soñas!",
+    "githubURL": "https://github.com/IvanJSantoMuze766",
+    "linkedinURL": "https://www.linkedin.com/in/ivan-j-santo-muze",
+    "email": "ivansantomuze@gmail.com"
+  }
+
+}

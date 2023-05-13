@@ -1,0 +1,104 @@
+
+  <!-- Habilidades -->
+  <section class="hab" id="habilidadesid">
+    <div class="exp container seccion-glass d-flex flex-column">
+      <!-- Habilidades Tecnincas -->
+      <h2 class="exp-title text-center ">Habilidades Técnicas</h2>
+
+      <!-- Boton de "Nueva Habilidad" -->
+      <label class="cv" for="tfhab" routerLink="/habilidadtecnica/crear/">Nueva habilidad <i class="fa-solid fa-plus"></i></label>
+
+      
+
+      <div class="hab-div-cont container-fluid d-flex flex-column ">
+
+        <h3>Nivel Alto</h3>
+        <div class="exp-cont row d-flex justify-content-center align-items-baseline text-center">
+          <div *ngFor="let habilidad of nivelAltoList" class="icon-container col-12 col-sm-6 col-md-2 seccion-glass-h">
+            
+            <img [src]="habilidad.logo_url" alt="HTML5 Logo">
+            <p>{{habilidad.nombre}}</p>
+            <!-- div que contiene los iconos para editar y eliminar -->
+            <div class="cont-top">
+              <a class="edit" title="Eliminar" (click)="onDelete(habilidad.id)">
+                <i class="fa-regular fa-trash-can"></i>
+              </a>
+              <a class="edit" title="Editar" routerLink="/habilidadtecnica/editar/{{habilidad.id}}">
+                <i class="fa-solid fa-pen" ></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+
+        <h3>Nivel Medio</h3>
+        <div class="exp-cont row d-flex justify-content-center align-items-baseline text-center">
+          <div *ngFor="let habilidad of nivelMedioList" class="icon-container col-12 col-sm-6 col-md-3 seccion-glass-h">
+            <img [src]="habilidad.logo_url" alt="">
+            <p>{{habilidad.nombre}}</p>
+            <!-- div que contiene los iconos para editar y eliminar -->
+            <div class="cont-top">
+              <a class="edit" title="Eliminar" (click)="onDelete(habilidad.id)">
+                <i class="fa-regular fa-trash-can"></i>
+              </a>
+              <a class="edit" title="Editar" routerLink="/habilidadtecnica/editar/{{habilidad.id}}">
+                <i class="fa-solid fa-pen" ></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+
+        <h3>Nivel Basic</h3>
+        <div class="exp-cont row d-flex justify-content-center align-items-baseline text-center">
+          <div *ngFor="let habilidad of nivelBasicList" class="icon-container col-12 col-sm-6 col-md-3 seccion-glass-h">
+
+            <img [src]="habilidad.logo_url" alt="">
+            <p>{{habilidad.nombre}}</p>
+            <!-- div que contiene los iconos para editar y eliminar -->
+            <div class="cont-top">
+              <a class="edit" title="Eliminar" (click)="onDelete(habilidad.id)">
+                <i class="fa-regular fa-trash-can" ></i>
+              </a>
+              <a class="edit" title="Editar" routerLink="/habilidadtecnica/editar/{{habilidad.id}}">
+                <i class="fa-solid fa-pen" ></i>
+              </a>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+      <!-- Habilidades Blandas -->
+      <!-- <h2 class="exp-title text-center ">Habilidades Blandas</h2>
+      <div class="exp-cont row seccion-glass seccion-glass-h d-flex justify-content-center">
+      </div> -->
+      <!-- Idiomas & conociemintos extra -->
+      <h2 class="exp-title text-center ">Idiomas</h2>
+      <div class="hab-div-cont container-fluid d-flex flex-column ">
+
+        <h3>Idiomas</h3>
+        <div class="exp-cont row d-flex justify-content-center align-items-center text-center">
+
+          <div *ngFor="let habilidad of idiomasList" class="icon-container col-12 col-sm-6 col-md-2 seccion-glass-h">
+            <img [src]="habilidad.logo_url" alt="">
+            <p>{{habilidad.nombre}}</p>
+            <!-- div que contiene los iconos para editar y eliminar -->
+            <div class="cont-top">
+              <a class="edit" title="Eliminar" (click)="onDelete(habilidad.id)">
+                <i class="fa-regular fa-trash-can" ></i>
+              </a>
+              <a class="edit" title="Editar" routerLink="/habilidadtecnica/editar/{{habilidad.id}}">
+                <i class="fa-solid fa-pen" ></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+

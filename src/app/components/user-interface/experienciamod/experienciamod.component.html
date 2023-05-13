@@ -1,0 +1,33 @@
+  <!-- Experiencia -->
+  <section class="exp">
+    <div class="container d-flex flex-column seccion-glass">
+      <h2 class="exp-title text-center ">Experiencia </h2>
+      
+      <!-- Añadir nueva experiencia -->
+      <div class="container d-flex row justify-content-center">
+        <label class="cv" for="tfexp" routerLink="/experiencia/crear">Nueva experiencia <i class="fa-solid fa-plus"></i></label>
+      </div>
+
+      <!-- A partir de aca, empieza cada experiencia individual -->
+      <div *ngFor="let exp of miPortfolio" class="exp-cont row seccion-glass seccion-glass-h d-flex justify-content-center">
+        <!-- div que contiene los iconos para editar y eliminar -->
+        <div class="cont-top">
+          <a class="edit" title="Eliminar" (click)="onDelete(exp.id)">
+            <i class="fa-regular fa-trash-can"></i>
+          </a>
+          <a class="edit" title="Editar" routerLink="/experiencia/editar/{{exp.id}}">
+            <i class="fa-solid fa-pen"></i>
+          </a>
+        </div>
+
+        <img class="exp-image col-12 " [src]="exp.logo_url" alt="Person icon">
+        <div class="exp-info d-flex flex-column col-12">
+          <h3>{{exp.posicionYTiempo}}</h3>
+          <p>{{exp.description}}</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
