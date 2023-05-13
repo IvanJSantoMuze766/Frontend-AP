@@ -1,0 +1,13 @@
+header{
+    background-color: white;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+h2{
+    color: black; 
+    font-size: 40px;
+    font-family:Tahoma;
+    font-variant: small-caps;
+    text-align: center;
+}

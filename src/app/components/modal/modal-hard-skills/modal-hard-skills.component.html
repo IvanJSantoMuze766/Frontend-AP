@@ -1,0 +1,41 @@
+<div class="modal fade" id="habilidadesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Editar hard skills</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<form name="habilidadesForm"> 
+					<!-- formulario de habilidad-->
+				<div class="mb-3">
+					<label for="habilidadNombre" class="form-label">Seleccionar habilidad: </label>
+					<select class="form-select" id="habilidadId">
+					<option>Seleccionar</option>
+					<option value="1">HTML</option>
+					<option value="2">Java</option>
+					<option value="3">CSS</option>
+					<option value="4">JavaScript</option>
+					<option value="5">PHP</option>
+					<option value="6">Phyton</option>
+					<option value="7">Github</option>
+					<option value="8">TypeScript</option>
+					<option value="9">Git</option>
+					<option value="10">Base de datos</option>
+					</select>
+				</div>            
+					<div class="mb-3">
+						<label for="habilidadNombre" class="form-label">Modificar habilidad: </label>
+						<input type="text" class="form-control" id="habilidadNombre" placeholder="Nombre nuevo">
+					</div>
+					<label for="habilidadPorcentaje" class="form-label">Modificar porcentaje de manejo (escala 0-100):</label>
+					<input type="number" min="0" max="100" id="habilidadPorcentaje">
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="submit" class="btn btnLogin btn-primary" data-bs-dismiss="modal">Guardar</button> 
+				<button type="submit" class="btn btnCancel btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,47 @@
+<div class="modal fade" id="educacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Editar educación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <!-- formulario de educación-->
+                <form name="educacionForm"> 
+                    <div class="mb-3">
+                        <label for="educacion" class="form-label">Modificar instituto educativo:</label>
+                        <input type="text" class="form-label" id="educacion" placeholder="Insitucion de estudios">
+                    </div>
+                    <div class="mb-3">
+                        <label for="educacionUrl" class="form-label">Modificar url de educación:</label>
+                        <input class="form-control" type="url" id="educacionUrl" placeholder="Url educativo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="educacionImg" class="form-label">Modificar logo de instituto:</label>
+                        <input class="form-control" type="file" id="educacionImg" > 
+                    </div>
+                    <div class="mb-3">
+                        <label for="educacionEstudio" class="form-label">Modificar estudio:</label>
+                        <input type="text" class="form-control" id="educacionEstudio" placeholder="Ingrese nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="educacionPeriodoInicio" class="form-label">Modificar periodo inicio:</label>
+                        <input type="date" class="form-control" id="educacionPeriodoInicio">
+                    </div>
+                    <div class="mb-3">
+                        <label for="educacionPeriodoFin" class="form-label">Modificar periodo fin:</label>
+                        <input type="date" class="form-control" id="educacionPeriodoFin">
+                    </div>
+                    <div class="mb-3">
+                        <label for="educacionInfo" class="form-label">Modificar información de estudio realizado:</label>
+                        <textarea class="form-control" id="educacionInfo" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btnLogin btn-primary" data-bs-dismiss="modal">Guardar</button> 
+                <button type="submit" class="btn btnCancel btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>

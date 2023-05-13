@@ -1,0 +1,25 @@
+.row{
+    margin-left: 1px;
+}
+
+#educacion{
+    width: 90%;
+    margin: auto;
+}
+
+.card:hover {
+    filter: opacity(.5); 
+}
+
+.card{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+#tamaño{
+    height: 180px;
+    width: 180px;
+}

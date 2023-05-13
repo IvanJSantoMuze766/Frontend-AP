@@ -1,0 +1,58 @@
+<div class="row">
+    <h2>Experiencia Laboral</h2>    
+
+            <!-- Button trigger modal -->
+    <div class="col-lg-2">
+ <button type="button" data-bs-toggle="modal" data-bs-target="#experienciaModal" class="btn btn-close-black"><i class="fa-solid fa-pencil"></i></button>
+    </div>
+      <div class="col-lg-2">
+        <button type="button" class="btn btn-dark" routerLink="/nuevaexp" *ngIf="isLogged">
+            Agregar Experiencia
+        </button>
+    </div>
+
+    <div class="card-group row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-lg-4 g-5" id="educacion">
+        <div class="card">
+            <img src="../../../assets/img/ISBM.png" class="card-img-top" id="tamaño">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item edu-degree"><h3>Colegio de la Santa Cruz</h3></li>
+                <li class="list-group-item edu-institution">Bachiller en Humanidades y Ciencias Sociales</li>
+                <li class="list-group-item edu-date">2012 - 2017</li>
+                </ul>
+    </div>
+
+    <div class="cole">
+        <div class="card">
+            <img src="../../../assets/img/fceqyn.jpg" class="card-img-top" id="tamaño">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item edu-degree"><h3>Facultad de Ciencias Exactas y Tecnologia Facet</h3></li>
+                <li class="list-group-item edu-institution">Ingenieria Electrica</li>
+                <li class="list-group-item edu-date">2020 - actualidad</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="cole">
+        <div class="card">
+            <img src="../../../assets/img/google.png" class="card-img-top" id="tamaño">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item edu-degree"><h3>Google Actívate</h3></li>
+                <li class="list-group-item edu-institution">Desarrollo de apps móviles</li>
+                <li class="list-group-item edu-degree">Abril 2022</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="cole">
+        <div class="card">
+            <img src="../../../assets/img/seprogramar.png" class="card-img-top" id="tamaño" >
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item edu-degree"><h3>Argentina Programa</h3></li>
+                <li class="list-group-item edu-institution">Primer etapa finalizada: #SéProgramar. Segunda etapa en proceso: #YoProgramo</li>
+                <li class="list-group-item edu-degree">Junio 2022 - Marzo 2023</li>
+            </ul>
+        </div>
+    </div> 
+    <app-modal-experiencia></app-modal-experiencia>
+  </div>
+</div>
