@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "frontend-ism",
+    "frontend-ism": "frontend-ism"
+  },
+  "targets": {},
+  "etags": {}
+}
