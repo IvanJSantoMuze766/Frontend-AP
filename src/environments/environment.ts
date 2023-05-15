@@ -1,22 +1,22 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 export const environment = {
   firebase: {
-    projectId: 'arprogramads9frontend-auth',
-    appId: '1:813051976316:web:4ecb71a77be578bdae87f9',
-    storageBucket: 'arprogramads9frontend-auth.appspot.com',
+    projectId: 'frontend-ism',
+    appId: '1:522710588728:web:6cb88c86b6ad0cbb4175cd',
+    storageBucket: 'frontend-ism.appspot.com',
     apiKey: 'AIzaSyASkkIRxW0AwPHSdjh7zDHlYDZcXQtS84c',
-    authDomain: 'arprogramads9frontend-auth.firebaseapp.com',
-    messagingSenderId: '813051976316',
+    authDomain: 'frontend-ism.firebaseapp.com',
+    messagingSenderId: '522710588728',
     measurementId: 'G-MPHWHFFHQC',
   },
   production: false
   // firebaseConfig : {
   //   apiKey: "AIzaSyASkkIRxW0AwPHSdjh7zDHlYDZcXQtS84c",
-  //   authDomain: "arprogramads9frontend-auth.firebaseapp.com",
-  //   projectId: "arprogramads9frontend-auth",
-  //   storageBucket: "arprogramads9frontend-auth.appspot.com",
-  //   messagingSenderId: "813051976316",
-  //   appId: "1:813051976316:web:4ecb71a77be578bdae87f9",
+  //   authDomain: "frontend-ism.firebaseapp.com",
+  //   projectId: "frontend-ism",
+  //   storageBucket: "frontend-ism.appspot.com",
+  //   messagingSenderId: "522710588728",
+  //   appId: "1:522710588728:web:6cb88c86b6ad0cbb4175cd",
   //   measurementId: "G-MPHWHFFHQC"
   // }
 }
