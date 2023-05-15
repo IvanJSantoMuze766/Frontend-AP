@@ -24,7 +24,7 @@ export class DataPortfolioService {
   //private urlAPI = 'http://localhost:5000/experiencia'; 
   private json = './assets/data/data.json';
   private backendISM = "http://localhost:8080";
-  private RenderBackendISM = "https://portfolio-backend-g1r7.onrender.com";
+  private RenderBackendISM = "https://backend-ism-ap.onrender.com";
 
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
