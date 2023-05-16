@@ -7,7 +7,6 @@ export const environment = {
     apiKey: 'AIzaSyASkkIRxW0AwPHSdjh7zDHlYDZcXQtS84c',
     authDomain: 'frontend-ism.firebaseapp.com',
     messagingSenderId: '522710588728',
-    measurementId: 'G-MPHWHFFHQC',
   },
   production: false
   // firebaseConfig : {
@@ -17,6 +16,5 @@ export const environment = {
   //   storageBucket: "frontend-ism.appspot.com",
   //   messagingSenderId: "522710588728",
   //   appId: "1:522710588728:web:6cb88c86b6ad0cbb4175cd",
-  //   measurementId: "G-MPHWHFFHQC"
   // }
 }

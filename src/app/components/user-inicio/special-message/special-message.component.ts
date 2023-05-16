@@ -14,14 +14,14 @@ export class SpecialMessageComponent  implements OnInit{
 
   user: any;
 
-  pepe: any;
+  password: any;
   
   constructor(private datosPortfolio:DataPortfolioService, private auth: AuthService) { }
 
   ngOnInit(): void {
     this.datosPortfolio.obtenerDatosMensaje().subscribe(data => {
       this.miPortfolio = data;
-      this.pepe = this.hasUserCommented();
+      this.password = this.hasUserCommented();
     })
     this.user = this.auth.getUserLogged();
   }

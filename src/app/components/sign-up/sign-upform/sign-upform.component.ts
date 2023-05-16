@@ -29,7 +29,7 @@ export class SignUpformComponent {
       email: this.form.value.email,
       password: this.form.value.password
     };
-    //Recuerda habilitar el codigo si vas a registrar mas gente
+    //Habilita el codigo si vas a registrar mas gente
     console.log(user);
     // this.authService.register(user)
     //   .then (response => {

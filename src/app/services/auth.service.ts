@@ -69,11 +69,11 @@ export class AuthService {
   }
 
   isUserLoggedInWithEmailAndPassword(): boolean {
-    return !!(this.auth.currentUser?.email === "alexrepollo@outlook.com");
+    return !!(this.auth.currentUser?.email === "ivansantomuze@gmail.com");
   }
 
   isUserLoggedInWithGoogle(): boolean {
-    return !!(this.auth.currentUser?.email !== "alexrepollo@outlook.com");
+    return !!(this.auth.currentUser?.email !== "ivansantomuze@gmail.com");
   }
   
 

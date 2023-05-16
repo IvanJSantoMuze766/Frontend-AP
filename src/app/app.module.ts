@@ -119,11 +119,11 @@ import { CrearMessageComponent } from './components/user-inicio/special-message/
   imports: [
     BrowserModule,
     AppRoutingModule, //Para que funcione el routing
-    HttpClientModule,  //Para habilitar las llamadas al servidor
+    HttpClientModule,  //Llamar al servidor
     FormsModule,
     ReactiveFormsModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideAuth(() => getAuth())   //Para usar formularios reactivos de Angular
+    provideAuth(() => getAuth())   //Formularios reactivos de Angular
   ],
   providers: [],
   bootstrap: [AppComponent]

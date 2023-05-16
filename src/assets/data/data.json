@@ -3,7 +3,7 @@
   "user": {
     "userName": "ism",
     "email": "ivansantomuze@gmail.com",
-    "password": "766712334"
+    "password": "7667123"
   },
   "hero": {
     "imagenPerfil": "./assets/images/FotoDePerfiljpg",
@@ -128,7 +128,7 @@
         "descripcion": "Aplicación Web que incluye Portfolio Web propio. Proyecto realizado integramente por mi (Ivan Santo Muze) durante la 2da etapa de Argentina Programa denominada #YoProgramo.",
         "imagen": "./assets/images/proyectos/ARprograma-portfolio-app-web.png",
         "paginaURL": "index.html",
-        "githubURL": "https://github.com/donsonic9/donsonic9.github.io"
+        "githubURL": "https://github.com/IvanJSantoMuze766/Frontend-AP"
       }
     ]
   },
@@ -138,6 +138,6 @@
     "githubURL": "https://github.com/IvanJSantoMuze766",
     "linkedinURL": "https://www.linkedin.com/in/ivan-j-santo-muze",
     "email": "ivansantomuze@gmail.com"
-  }
+   }
 
-}
+  }
